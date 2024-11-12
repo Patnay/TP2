@@ -1,12 +1,52 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bienvenue</title>
-    <link rel="stylesheet" href="style.css">
+<style>
+.grille{
+    display: grid;
+    margin: auto;
+    height: 1000px;
+    background-color: black;
+    color: white;
+    width: 50%;
+
+}
+.cIndex{
+    padding: 16px;
+    border: solid white  2px;
+    text-align: center;
+}
+body{
+    background: linear-gradient(blue, red);
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    font-size: 150%;
+    background-color: azure;
+    color: black;
+    padding: 4px;
+}
+</style>
 </head>
+
 <body>
-    
+    <div class="grille" id="gIndex">
+
+        <div class="cIndex" id="hBienvenueIndex"> Bienvenue dans mon TP2</div>
+
+        <div class="cIndex"><nav><a href="ark.html">Page 1, Ark Survival-Evolved</a></nav></div>
+        <div class="cIndex"><nav><a href="stf.html">Page 2, Sons of the forest</a></nav></div>
+        <div class="cIndex"><nav><a href="kb2.html">Page 3, KB2</a></nav></div>
+        <div class="cIndex"><nav><a href="source.html">Sources</a></nav></div>
+    </div>
+
+
 </body>
+
 </html>
