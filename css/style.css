@@ -122,13 +122,14 @@ div.gallery {
     margin: auto;
     margin-top: 32px;
     margin-bottom: 32px;
-    border: white;
-   
     width: 180px;
     opacity: 50%;
     font-size: 0px;
   }
-  
+  .gallery figure{
+    border: none;
+   
+  }
   div.gallery:hover {
     opacity: 100%;
     width: fit-content;
