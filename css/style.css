@@ -13,6 +13,10 @@ body {
     background-color: white;
     border: solid;
 }
+#KB2{
+    width: 70%;
+    margin: auto;
+}
 
 .cellule {
     padding: 16px;
@@ -94,10 +98,7 @@ footer a {
     color: black
 }
 
-strong {
-    text: decoration thickness 25px;
-    ;
-}
+
 
 ul li {
     padding: 16px;
@@ -118,9 +119,11 @@ a:hover {
     text-decoration: underline;
 }
 div.gallery {
-    margin: 5px;
+    margin: auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
     border: 1px solid #000000;
-    float: left;
+   
     width: 180px;
     opacity: 50%;
     font-size: 0px;
@@ -136,14 +139,39 @@ div.gallery {
   div.gallery img {
     width: 100%;
     height: auto;
+    
   }
-#Gallery{
-    display: inline-block;
-}
 .gallery:hover{
  font-size: 16px;
  background-color: aqua;
+ margin: auto;
 }
 figcaption{
     margin: auto;
+margin-top: 0px;
+margin-bottom: 0px;    
+}
+#background_img{
+    background-image: linear-gradient();
+}
+.Favicon_im{
+    float: left;
+}
+#facicon_grid{
+    display: grid;
+    grid-template-rows:repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
+}.Favicon_im img{
+    border-radius: 32px;
+    height: 64px;
+    width: 64px;
+}
+#aside_KB2{
+    background-color: coral;
+}
+#facicon_grid div{
+    margin: 24px
+}
+li ul{
+    list-style: none;
 }
